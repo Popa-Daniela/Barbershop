@@ -1,0 +1,6 @@
+.global-header .main-navigation a {
+  color: black;
+}
+.global-header .main-navigation a.active {
+  color: #ff6c00;
+}
