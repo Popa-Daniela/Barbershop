@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="global-header">
       <a href="index.html">
         ,<img src="images/logo.svg" alt="logo" class="svg" />
@@ -23,29 +24,33 @@
       </nav>
 
       <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button>BOOK A SERVICE</button>
-      <section>
+      <button class="button">BOOK A SERVICE</button>
+      <aside>
         <a
+          class="social-link"
           href="https://youtube.com"
           target="_blank"
           rel="nofollow noopener noreferrer"
           >Youtube</a
         >
         <a
-          href="https://facebook.com"
+          class="social-link active"
+          href="https://instagram.com"
           target="_blank"
           rel="nofollow noreferrer noopener"
-          >Facebook
+          >Instagram
         </a>
         <img src="images/header_section_divider.svg" alt="|" />
-      </section>
+      </aside>
     </header>
 
+    <!-- Main Contect -->
     <main>
-      <section>
+      <!-- Hero Section -->
+      <section class="section hero-section">
         <img src="images/landing-dash.png" alt="-" />
-        <h3>A hair salon for men in Kyiv</h3>
-        <h1>Barbershop</h1>
+        <h3 class="section-sub-heading">A hair salon for men in Kyiv</h3>
+        <h1 class="hero-heading">BarberShop</h1>
         <p>
           We are experts in trendy men's haircuts.
           <br />
@@ -54,28 +59,33 @@
         <button>Prev</button>
         <button>Next</button>
       </section>
-      <section>
+      <!-- About -->
+      <section class="section section-with-light-bg">
         <img src="images/img1.png" alt="Barber comb the beard" />
         <img src="images/img2.png " alt="Barber cut the beard" />
         <img src="images/about-line.png" alt="-" height="60px" width="1px" />
-        <h2>The Best Barbershop in Your City</h2>
+        <h3 class="section-sub-heading">About</h3>
+        <h2 class="section-heading">The Best Barbershop in Your City</h2>
         <p>
           If you want to add more confidence to your image, you are definitely
           in the right place.
         </p>
-        <p>
+        <p class="small-text">
           We are a team that never rests on its laurels and yearns for change.
           And once you fall into the hands of our master, you will never be the
           same again. We are a team that is always on the same wavelength with
           clients. Therefore, we are always ready to improve everyone who comes
           to us!
         </p>
-        <button>BOOK A SERVICE</button>
+        <button class="button">BOOK A SERVICE</button>
       </section>
-      <section>
-        <h3>Spend time in the company of the best craftsmen</h3>
+      <!-- Sevices and Prices -->
+      <section class="section">
+        <h3 class="section-sub-heading">
+          Spend time in the company of the best craftsmen
+        </h3>
         <h2>Services and Prices</h2>
-        <ul>
+        <ul class="services-list">
           <li>
             <span>Men's Haircut</span>
             <span>from 300 UAH </span>
@@ -111,10 +121,11 @@
             <span> from 200 UAH</span>
           </li>
         </ul>
-        <button>BOOK A SERVICE</button>
+        <button class="button">BOOK A SERVICE</button>
       </section>
-      <section>
-        <h3>Old school</h3>
+      <!-- Old school -->
+      <section class="section section-with-light-bg">
+        <h3 class="section-sub-heading">Old school</h3>
         <h2>Why do they come to us?</h2>
         <p>
           Only good things are said about us. But it is better to see and feel 1
@@ -143,13 +154,16 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h3>for true connoisseurs of the atmosphere</h3>
+      <!-- Our Barber -->
+      <section class="section section-with-light-bg section-with-gray-bg">
+        <h3 class="section-sub-heading">
+          for true connoisseurs of the atmosphere
+        </h3>
         <h2>Our Barbers</h2>
-        <ul>
+        <ul class="barbers-list">
           <li>
             <img src="images/johnsmith.jpg" alt="John Smith" /> <br />
-            John Smith<br />
+            <span>John Smith<br /></span>
             <em>Extreme Barber</em>
           </li>
           <li>
@@ -164,8 +178,9 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h3>In Latin, "barb" means "beard"</h3>
+      <!-- Motto -->
+      <section class="section section-with-light-bg">
+        <h3 class="section-sub-heading">In Latin, "barba" means "beard"</h3>
         <ul>
           <li><img src="./images/motto1.jpg" alt="barber cut the hair" /></li>
           <li>
@@ -175,14 +190,15 @@
           <li><img src="./images/motto4.jpg" alt="barber cut the beard" /></li>
         </ul>
       </section>
-      <section>
+      <!-- Contacts -->
+      <section class="section">
         <h2>Contacts</h2>
         <address>
           <span>
-            <img src="./images/map-pin.jpg" alt="map" />Street, 7A Kyiv, 08132
+            <img src="./images/map-pin.jpg" alt="Main" />Street, 7A Kyiv, 08132
           </span>
           <br />
-          <a href="tel:+380441111111">
+          <a class="no-underline" href="tel:+380441111111">
             <img src="./images/phone.jpg" alt="tel" /> +38 044 111 11 11</a
           >
           <br />
@@ -199,6 +215,7 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
     <footer>
       <span>&#169; Copyright 2022</span>
       <ul>
